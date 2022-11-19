@@ -220,15 +220,19 @@ color:var(--black);
   content: "";
 }
 
-.menu__wrapper__radio {
+/* .menu__wrapper__checkbox {
   position: absolute;
   z-index: -1;
   opacity: 0;
-}
+} */
+/* 
+.menu__wrapper__checkbox:checked ~ .menu__wrapper {
+  transform: translateX(1);
+} */
 
 .cross__item {
 	position: absolute;
-	top: 44px;
+	top: 52px;
 	right: 44px;
 	width: 24px;
 	height: 24px;
@@ -246,8 +250,6 @@ color:var(--black);
 	width: 24px;
 	height: 3px;
 	background: var(--grey);
-  /* left: -28px;
-  top: 38px; */
 }
 
 .cross__item::before {
