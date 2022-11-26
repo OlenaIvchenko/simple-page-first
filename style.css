@@ -62,7 +62,7 @@
     
 .navigation-link:focus {
   color: var(--nav-link-hover-focus);
-  text-decoration: underline;
+  border-bottom: 1px solid var(--nav-link-hover-focus);
 }
 
 .menu {
